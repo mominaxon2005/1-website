@@ -1,0 +1,70 @@
+@media(max-width:1300px) {
+    .header__nav {
+        display: flex;
+        flex-direction: column;
+        padding: 33px;
+    }
+    .header__list {
+        margin-top: 23px;
+        margin-bottom: 23px;
+    }
+    .box {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        margin: 33px;
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 33px;
+    }
+    .cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cards__right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .products {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .see {
+        margin-top: 33px;
+        margin-bottom: 33px;
+    }
+    .best {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .best-box {
+        margin-top: 33px;
+    }
+    .book {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer__nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .footer-text {
+        margin-top: 33px;
+        margin-bottom: 33px;
+    }
+}
+
+@media(max-width:700px) {
+    .komputer {
+        width: 350px;
+        height: 250px;
+    }
+}
